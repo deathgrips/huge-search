@@ -25,10 +25,10 @@ body {
 	color: #ec5a62;
 	margin-bottom: 50px;
 }
-.ba-form [type="text"]:hover, .ba-form [type="button"]:hover{
+.ba-form [type="text"]:hover, .ba-form [type="submit"]:hover{
 	cursor: pointer;
 }
-.ba-form [type="button"]{
+.ba-form [type="submit"]{
 	width: 100px;
 	height: 100px;
 	background: url(../img/magnifier.svg) no-repeat center center;
@@ -80,4 +80,10 @@ body {
 }
 .ba-face li a img{
 	border-radius: 50%;
+}
+.ba-form [type="submit"]:hover {
+ transform: scale(1.1);
+}
+.ba-form [type="submit"]:focus, .ba-form [type="text"]{
+outline: none;	
 }
